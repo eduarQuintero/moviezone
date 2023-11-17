@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container header {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.container header h1 {
+  border: 1px solid red;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+}
+.container header h1 .purple {
+  color: #6752f0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 200;
+}
+.container header .fa-bars {
+  border: 1px solid red;
+  color: white;
+  font-size: 30px;
+}
+.container header .nav {
+  border: 1px solid red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: black;
+}
+.container header .nav .nav-list {
+  border: 2px solid green;
+}
+.container header .nav .nav-list li {
+  padding: 20px;
+  text-align: center;
+}
+.container header .nav .nav-list li .list {
+  text-decoration: none;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  transition: all 0.5s ease;
+}
+.container header .nav .nav-list li .list:hover {
+  color: #6752f0;
+}
+
+/*# sourceMappingURL=main.css.map */
