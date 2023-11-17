@@ -16,7 +16,6 @@ body {
   padding: 10px;
 }
 .container header h1 {
-  border: 1px solid red;
   text-align: center;
   font-size: 25px;
   color: white;
@@ -42,8 +41,12 @@ body {
   width: 200px;
   background-color: black;
 }
-.container header .nav .nav-list {
-  border: 2px solid green;
+.container header .nav .fa-x {
+  font-size: 30px;
+  position: relative;
+  left: 150px;
+  top: 20px;
+  color: white;
 }
 .container header .nav .nav-list li {
   padding: 20px;
