@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
-
 .container header {
   border: 1px solid green;
   display: flex;
@@ -28,26 +24,28 @@ body {
   font-weight: 200;
 }
 .container header .fa-bars {
-  border: 1px solid red;
   color: white;
   font-size: 30px;
+  cursor: pointer;
 }
 .container header .nav {
-  border: 1px solid red;
-  display: none;
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
-  width: 200px;
-  background-color: black;
+  width: 245px;
+  background-color: red;
+  height: 0px;
+  overflow: hidden;
+  transition: all 1s ease;
 }
 .container header .nav .fa-x {
   font-size: 30px;
   position: relative;
-  left: 150px;
-  top: 20px;
+  left: 210px;
+  top: 12px;
   color: white;
+  cursor: pointer;
 }
 .container header .nav .nav-list li {
   padding: 20px;
@@ -59,10 +57,17 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 30px;
   font-weight: 200;
-  transition: all 0.5s ease;
+  transition: color 0.5s ease;
 }
 .container header .nav .nav-list li .list:hover {
   color: #6752f0;
+}
+.container header .aparicion {
+  height: 100%;
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
