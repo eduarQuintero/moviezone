@@ -29,11 +29,11 @@
             // border: 1px solid red;
             // display: none;
             position: absolute;
-            right: -245px;
+            left: -100%;
             top: 0;
             bottom: 0;
-            width: 245px;
-            background-color: red;
+            width: 100%;
+            background-color: black;
             height: 100%;
             overflow: hidden;
             transition: all 1s ease;
@@ -41,7 +41,7 @@
                 // border: 1px solid red;
                 font-size: 30px;
                 position: relative;
-                left: 210px;
+                left: 87%;
                 top: 12px;
                 color: white;
                 cursor: pointer;
@@ -67,15 +67,10 @@
                 }
             }
         }
-
-        .aparicion {
-            // height: 100%;
-            right: 0px;
+        // emergence by menu nav
+        .emergence {
+            left: 0;
         }
-
-
-
-
 
 
     }
