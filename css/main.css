@@ -30,12 +30,12 @@
 }
 .container header .nav {
   position: absolute;
-  right: 0;
+  right: -245px;
   top: 0;
   bottom: 0;
   width: 245px;
   background-color: red;
-  height: 0px;
+  height: 100%;
   overflow: hidden;
   transition: all 1s ease;
 }
@@ -63,7 +63,7 @@
   color: #6752f0;
 }
 .container header .aparicion {
-  height: 100%;
+  right: 0px;
 }
 
 body {
