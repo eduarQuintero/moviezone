@@ -1,6 +1,6 @@
 .container {
     header {
-        border: 1px solid green;
+        // border: 1px solid green;
         display: flex;
         justify-content: space-between;
         padding: 10px;
@@ -23,7 +23,6 @@
             font-size: 30px;
             cursor: pointer;
         }
-
 
         .nav {
             // border: 1px solid red;
@@ -73,5 +72,36 @@
         }
 
 
+    }
+}
+
+@media all and (min-width : 768px) {
+    .container {
+        header {
+            // border: 1px solid red;
+            .fa-bars {
+                display: none;
+            }
+            .nav {
+                // border: 1px solid green;
+                position: static;
+                .fa-x {
+                    display: none;
+                }
+                .nav-list {
+                    // border: 1px solid yellow;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    li {
+                        padding: 0;
+                        .list {
+                            // border: 1px solid blueviolet;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

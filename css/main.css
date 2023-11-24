@@ -6,7 +6,6 @@
 }
 
 .container header {
-  border: 1px solid green;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -66,6 +65,28 @@
   left: 0;
 }
 
+@media all and (min-width: 768px) {
+  .container header .fa-bars {
+    display: none;
+  }
+  .container header .nav {
+    position: static;
+  }
+  .container header .nav .fa-x {
+    display: none;
+  }
+  .container header .nav .nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container header .nav .nav-list li {
+    padding: 0;
+  }
+  .container header .nav .nav-list li .list {
+    font-size: 20px;
+  }
+}
 body {
   background-color: black;
 }
