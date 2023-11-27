@@ -2,6 +2,19 @@ body {
     background-color: black;
 }
 
+.principal-title {
+    color: white;
+    font-family: $principal-font;
+    font-size: 32px;
+    // border: 1px solid red;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    span {
+        color: $principal-color;
+    }
+}
+
 .movies {
     // border: 1px solid red;
     display: flex;

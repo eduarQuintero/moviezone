@@ -91,6 +91,18 @@ body {
   background-color: black;
 }
 
+.principal-title {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  padding: 20px;
+}
+.principal-title span {
+  color: #6752f0;
+}
+
 .movies {
   display: flex;
   flex-direction: column;
