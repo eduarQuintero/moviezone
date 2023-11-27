@@ -96,10 +96,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 .movies .movie-card {
   border-radius: 5px;
-  width: 280px;
+  width: 260px;
   height: 320px;
   display: flex;
   flex-direction: column;
@@ -110,7 +111,7 @@ body {
 }
 .movies .movie-card .image-box {
   height: 250px;
-  width: 230px;
+  width: 200px;
   overflow: hidden;
 }
 .movies .movie-card .image-box img {
