@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  width: 100%;
 }
 .container header h1 {
   text-align: center;
@@ -88,6 +89,7 @@
   }
 }
 footer {
+  width: 100%;
   padding: 20px;
 }
 footer .title-footer {
@@ -131,6 +133,23 @@ footer .information .section-information a:hover {
   color: #6752f0;
 }
 
+@media all and (min-width: 768px) {
+  footer {
+    display: flex;
+  }
+  footer .title-footer {
+    width: 20%;
+  }
+  footer .information {
+    border-top: 1px solid rgb(168, 168, 168);
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer .information .section-information {
+    justify-content: center;
+  }
+}
 body {
   background-color: black;
 }
@@ -179,6 +198,22 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
   font-weight: 300;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container main {
+    width: 90%;
+  }
+  .container main .movies {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

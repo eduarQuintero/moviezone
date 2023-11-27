@@ -52,3 +52,21 @@ body {
         }
     }
 }
+
+@media all and (min-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        main {
+            // border: 1px solid green;
+            width: 90%;
+            .movies {
+                // border: 1px solid red;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

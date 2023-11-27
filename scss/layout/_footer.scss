@@ -1,5 +1,6 @@
 footer {
     // border: 1px solid red;
+    width: 100%;
     padding: 20px;
     .title-footer {
         border-top: 1px solid $subtitle-color;
@@ -42,6 +43,28 @@ footer {
                 &:hover {
                     color: $principal-color;
                 }
+            }
+        }
+    }
+}
+
+@media all and (min-width : 768px) {
+    footer {
+        // border: 1px solid red;
+        display: flex;
+        .title-footer {
+            // border: 1px solid green;
+            width: 20%;
+        }
+        .information {
+            border-top: 1px solid $subtitle-color;
+            width: 80%;
+            // border: 1px solid yellow;
+            flex-direction: row;
+            justify-content: space-around;
+            .section-information {
+                // border: 1px solid green;
+                justify-content: center;
             }
         }
     }
