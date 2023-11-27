@@ -163,7 +163,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  box-shadow: 1px 1px 10px #6752f0;
+  box-shadow: 1px 1px 15px #6752f0;
 }
 .movies .movie-card .image-box {
   height: 250px;
