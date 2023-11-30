@@ -154,7 +154,10 @@ body {
   background-color: black;
 }
 
-.principal-title {
+.container main {
+  width: 100%;
+}
+.container main .principal-title {
   color: white;
   font-family: "Work Sans", sans-serif;
   font-size: 32px;
@@ -162,41 +165,45 @@ body {
   font-weight: 400;
   padding: 20px;
 }
-.principal-title span {
+.container main .principal-title span {
   color: #6752f0;
 }
-
-.movies {
+.container main .container-slide {
+  display: none;
+}
+.container main .movies {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
-.movies .movie-card {
+.container main .movies .movie-card {
   border-radius: 5px;
-  width: 260px;
-  height: 320px;
+  width: 120px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 1px 1px 15px #6752f0;
 }
-.movies .movie-card .image-box {
-  height: 250px;
-  width: 200px;
+.container main .movies .movie-card .image-box {
+  width: 100px;
+  height: 145px;
   overflow: hidden;
 }
-.movies .movie-card .image-box img {
+.container main .movies .movie-card .image-box img {
   width: 100%;
   height: 100%;
 }
-.movies .movie-card h2 {
+.container main .movies .movie-card h2 {
   color: white;
   font-family: "Work Sans", sans-serif;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 300;
 }
 
@@ -208,9 +215,59 @@ body {
     align-items: center;
   }
   .container main {
-    width: 90%;
+    border: 1px solid red;
+    width: 100%;
+  }
+  .container main h1 {
+    display: none;
+  }
+  .container main .container-slide {
+    display: block;
+    width: 100%;
+    max-height: 94vh;
+    overflow: hidden;
+  }
+  .container main .container-slide .slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+  }
+  .container main .container-slide .slides .slide-1 {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-2 img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+  }
+  .container main .container-slide .slides .slide-3 {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-3 img {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-4 {
+    width: 100%;
+    height: 100%;
+  }
+  .container main .container-slide .slides .slide-4 img {
+    width: 100%;
+    height: 100%;
   }
   .container main .movies {
+    width: 100%;
+    border: 1px solid yellow;
     flex-direction: row;
     flex-wrap: wrap;
   }
