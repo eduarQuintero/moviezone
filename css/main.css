@@ -215,61 +215,58 @@ body {
     align-items: center;
   }
   .container main {
-    border: 1px solid red;
     width: 100%;
   }
   .container main h1 {
     display: none;
   }
   .container main .container-slide {
+    border: 2px solid red;
     display: block;
-    width: 100%;
-    max-height: 94vh;
+    width: 100vw;
+    max-height: 70vh;
     overflow: hidden;
   }
   .container main .container-slide .slides {
-    width: 400%;
+    border: 1px solid green;
+    width: 400vw;
     height: 100%;
     display: flex;
   }
-  .container main .container-slide .slides .slide-1 {
+  .container main .container-slide .slides .slide {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+  }
+  .container main .container-slide .slides .slide img {
     width: 100%;
     height: 100%;
   }
-  .container main .container-slide .slides .slide-1 img {
-    width: 100%;
-    height: 100%;
+  .container main .container-slide .slides .slide .movie-title {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    z-index: 20;
   }
-  .container main .container-slide .slides .slide-2 {
-    width: 100%;
-    height: 100%;
-  }
-  .container main .container-slide .slides .slide-2 img {
-    width: 100%;
-    height: 100%;
-    border: 3px solid red;
-  }
-  .container main .container-slide .slides .slide-3 {
-    width: 100%;
-    height: 100%;
-  }
-  .container main .container-slide .slides .slide-3 img {
-    width: 100%;
-    height: 100%;
-  }
-  .container main .container-slide .slides .slide-4 {
-    width: 100%;
-    height: 100%;
-  }
-  .container main .container-slide .slides .slide-4 img {
-    width: 100%;
-    height: 100%;
+  .container main .container-slide .slides .slide .movie-description {
+    color: rgb(168, 168, 168);
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    width: 50%;
   }
   .container main .movies {
     width: 100%;
-    border: 1px solid yellow;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px 0;
   }
 }
 
