@@ -80,26 +80,27 @@ body {
                 display: none;
             }
             .container-slide {
-                // border: 2px solid red;
+                // border: 1px solid red;
                 display: block;
                 width: 100vw;
                 max-height: 70vh;
-                overflow: hidden;
+                // overflow: hidden;
                 .slides {
                     // border: 1px solid green;
                     width: 400vw;
-                    height: 100%;
+                    max-height: 70vh;
                     display: flex;
+                    overflow: hidden;
                     .slide {
                         // border: 1px solid green;
                         width: 100vw;
-                        height: 100%;
+                        max-height: 70vh;
                         position: relative;
-                        // z-index: 10;
+                        z-index: 10;
                         img {
                             // border: 2px solid blue;
                             width: 100%;
-                            height: 100%;
+                            height: auto;
                         }
                         .movie-title {
                             color: white;
@@ -112,6 +113,7 @@ body {
                             z-index: 20
                         }
                         .movie-description {
+                            // border: 1px solid red;
                             color: $subtitle-color;
                             position: absolute;
                             top: 40%;
@@ -119,7 +121,6 @@ body {
                             font-family: $principal-font;
                             font-weight: 200;
                             font-size: 30px;
-                            // border: 1px solid red;
                             width: 50%;
                         }
                     }

@@ -224,21 +224,22 @@ body {
     display: block;
     width: 100vw;
     max-height: 70vh;
-    overflow: hidden;
   }
   .container main .container-slide .slides {
     width: 400vw;
-    height: 100%;
+    max-height: 70vh;
     display: flex;
+    overflow: hidden;
   }
   .container main .container-slide .slides .slide {
     width: 100vw;
-    height: 100%;
+    max-height: 70vh;
     position: relative;
+    z-index: 10;
   }
   .container main .container-slide .slides .slide img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .container main .container-slide .slides .slide .movie-title {
     color: white;
