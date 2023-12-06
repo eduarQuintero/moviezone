@@ -41,6 +41,10 @@ body {
                 align-items: center;
                 padding: 5px;
                 box-shadow: 1px 1px 15px $principal-color;
+                &:hover {
+                    cursor: pointer;
+                    box-shadow: 3px 3px 25px $principal-color;
+                }
                 .image-box {
                     // border: 1px solid green;
                     width: 100px;
@@ -57,6 +61,7 @@ body {
                     font-family: $principal-font;
                     font-size: 10px;
                     font-weight: 300;
+                    text-align: center;
                 }
             }
         }

@@ -191,6 +191,10 @@ body {
   padding: 5px;
   box-shadow: 1px 1px 15px #6752f0;
 }
+.container main .movies .movie-card:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 25px #6752f0;
+}
 .container main .movies .movie-card .image-box {
   width: 100px;
   height: 145px;
@@ -205,6 +209,7 @@ body {
   font-family: "Work Sans", sans-serif;
   font-size: 10px;
   font-weight: 300;
+  text-align: center;
 }
 
 @media all and (min-width: 769px) {
