@@ -67,7 +67,7 @@ body {
 
 
 
-@media all and (min-width:768px) {
+@media all and (min-width:769px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -127,11 +127,25 @@ body {
                 }
             }
             .movies {
-                width: 100%;
                 // border: 1px solid yellow;
+                width: 99%;
                 flex-direction: row;
                 flex-wrap: wrap;
                 padding: 20px 0;
+                gap: 40px;
+                .movie-card {
+                    // border: 1px solid yellow;
+                    width: 200px;
+                    height: 280px;
+                    .image-box {
+                        // border: 1px solid green;
+                        width: 170px;
+                        height: 220px;
+                    }
+                    h2 {
+                        font-size: 15px;
+                    }
+                }
             }
         }
     }

@@ -207,7 +207,7 @@ body {
   font-weight: 300;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 769px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -262,10 +262,22 @@ body {
     width: 50%;
   }
   .container main .movies {
-    width: 100%;
+    width: 99%;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px 0;
+    gap: 40px;
+  }
+  .container main .movies .movie-card {
+    width: 200px;
+    height: 280px;
+  }
+  .container main .movies .movie-card .image-box {
+    width: 170px;
+    height: 220px;
+  }
+  .container main .movies .movie-card h2 {
+    font-size: 15px;
   }
 }
 
